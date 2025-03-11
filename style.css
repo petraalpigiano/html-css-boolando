@@ -23,6 +23,11 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-around;
+}
 /* MAIN */
 img {
   padding-right: 5px;
