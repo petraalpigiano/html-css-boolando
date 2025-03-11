@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 /* REGOLE UTILITY */
 .container {
   max-width: 1000px;
@@ -30,6 +34,7 @@
 .header {
   display: flex;
   justify-content: space-around;
+  color: white;
 }
 /* MAIN */
 img {
@@ -74,4 +79,14 @@ img {
   top: 9px;
   right: 5px;
   z-index: 2;
+}
+
+/* FOOTER */
+.bottom-container {
+  background-color: #1a1a1a;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
