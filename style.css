@@ -6,7 +6,8 @@
 }
 a {
   text-decoration: none;
-  color: white;
+  color: inherit;
+  padding-right: 10px;
 }
 /* REGOLE UTILITY */
 .container {
@@ -30,12 +31,22 @@ a {
 /* HEADER */
 .top-container {
   background-color: #fe6901;
+  box-shadow: 0 1px 4px 0 rgb(139, 138, 138);
+  min-height: 50px;
 }
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
+  font-weight: 600;
+  font-size: 0.7rem;
+  align-items: center;
+  padding-top: 10px;
 }
+i {
+  padding-right: 5px;
+}
+
 /* MAIN */
 img {
   padding-right: 5px;
